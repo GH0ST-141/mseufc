@@ -11,27 +11,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy</title>
   <link rel="icon" type="image/png" href="./assets/images/slogo white.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="./privacy.css">
 </head>
 
 <body>
-
-  <header class="header">
-    <div class="navbar">
-      <div class="w-layout-hflex flex-block-3"><img src="../../../assets/images/slogo white.png" alt="school logo"
-          width="214.5" class="navbar-logo" />
-        <div class="w-layout-vflex flex-block-2">
-          <div class="text-block-2">MSEUF CANDELARIA</div>
-        </div>
-      </div>
-      <div class="w-layout-hflex flex-block-4">
-        <a href="../login/login.html" class="button w-button">Home</a>
-        <a href="./procedures.html" class="button w-button">Procedures</a>
-        <a href="https://mseuf.edu.ph/candelaria" class="button w-button">University Website</a>
+<header class="header">
+  <div class="navbar">
+    <div class="w-layout-hflex flex-block-3"><img src="../../../assets/images/slogo white.png" alt="school logo"
+        width="214.5" class="navbar-logo" />
+      <div class="w-layout-vflex flex-block-2">
+        <div class="text-block-2">MSEUF</div>
+        <div class="text-block-3">CANDELARIA</div>
       </div>
     </div>
-  </header>
+    <div class="w-layout-hflex flex-block-4">
+      <a href="../login/login.html" class="button w-button">Home</a>
+      <a href="https://mseuf.edu.ph/candelaria" class="button w-button">University Website</a>
+      <a href="./procedures.html" class="button w-button">Procedures</a>
 
+      <div id="Sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../login/login.html">Home</a>
+        <a href="https://mseuf.edu.ph/candelaria">University Website</a>
+        <a href="./procedures.html">Procedures</a>
+      </div>
+      <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+    </div>
+  </div>
+</header>
 
   <main>
     <div class="privacy-container">

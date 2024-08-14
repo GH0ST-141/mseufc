@@ -5,7 +5,6 @@ html {
   height: 100%;
 }
 
-
 body {
   margin: 0;
   background-color: #ffc5c5;
@@ -222,7 +221,6 @@ main {
   margin-left: 0;
   margin-right: 0;
   display: block;
-  position: relative;
 }
 
 .copywrite-text {
@@ -271,7 +269,7 @@ main {
 }
 
 
-/* Media query for tablets (max-width: 768px) */
+/* Media query for phones and tablets (max-width: 768px) */
 @media only screen and (max-width: 768px) {
   .button {
     display: none;
@@ -330,7 +328,7 @@ main {
   }
 }
 
-/* Media query for monitors (min-width: 1024px) */
+/* Media query for monitors (min-width: 769px) */
 @media only screen and (min-width: 769px) {
   .menu-button {
     display: none;
