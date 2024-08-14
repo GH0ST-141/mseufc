@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Procedures</title>
   <link rel="icon" type="image/png" href="./assets/images/slogo white.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="./procedures.css">
 </head>
 
@@ -20,13 +21,23 @@
       <div class="w-layout-hflex flex-block-3"><img src="../../../assets/images/slogo white.png" alt="school logo"
           width="214.5" class="navbar-logo" />
         <div class="w-layout-vflex flex-block-2">
-          <div class="text-block-2">MSEUF CANDELARIA</div>
+          <div class="text-block-2">MSEUF</div>
+          <div class="text-block-3">CANDELARIA</div>
         </div>
       </div>
       <div class="w-layout-hflex flex-block-4">
-        <a href="../login/login.html" class="button w-button">Home</a>
-        <a href="https://mseuf.edu.ph/candelaria" class="button w-button">University Website</a>
-        <a href="./privacy.html" class="button w-button">Privacy</a>
+            <a href="../login/login.html" class="button w-button">Home</a>
+            <a href="https://mseuf.edu.ph/candelaria" class="button w-button">University Website</a>
+            <a href="./privacy.html" class="button w-button">Privacy</a>
+
+            <div id="Sidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="../login/login.html">Home</a>
+              <a href="https://mseuf.edu.ph/candelaria">University Website</a>
+              <a href="./privacy.html">Privacy</a>
+            </div>
+            <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+
       </div>
     </div>
   </header>
@@ -34,6 +45,7 @@
   <main>
     <div class="procedures-container">
       <h1>Procedures</h1>
+
       <div class=Procedures>
         <div class="procedure-item">
           <h2>Two Year Course</span></h2>
